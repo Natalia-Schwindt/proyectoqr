@@ -7,6 +7,8 @@
     url("https://db.onlinewebfonts.com/t/87f3446bd715401c8cfeb58b6649d2e2.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/87f3446bd715401c8cfeb58b6649d2e2.svg#Wrexham Script V1")format("svg");
 }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,300;1,400;1,500;1,600&display=swap');
+
 
 *{
     margin: 0;
@@ -49,14 +51,44 @@
     color: rgb(233, 175, 82);
     text-shadow: 2px 2px 2px black;
 }
-/* .container{
+.container{
     display: flex;
     flex-direction: column;
-} */
+}
+.container h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Serif', serif;
+    font-size: 5rem;
+    color: rgb(20, 20, 78);
+    text-shadow: 4px 4px 5px rgb(36, 36, 36);
+    margin: 40px;
+}
 .containermenu{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .imagencomida{
     display: flex;
     flex-direction: row-reverse;
+}
+.menu{
+    width: 400px;
+    height: 570px;
+    border: 1px solid rgb(145, 140, 140);
+}
+.nombremenu{
+    font-family: 'Noto Serif', serif;
+    margin: 15px;
+}
+.menu p{
+    margin: 15px;
+}
+.volver{
+    text-decoration: none;
+    color: rgb(20, 20, 78);
+    font-size: 26px;
+    font-family: Wrexham Script V1;
+    margin: 0 20px;
 }
