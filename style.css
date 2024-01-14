@@ -49,3 +49,14 @@
     color: rgb(233, 175, 82);
     text-shadow: 2px 2px 2px black;
 }
+/* .container{
+    display: flex;
+    flex-direction: column;
+} */
+.containermenu{
+    display: flex;
+}
+.imagencomida{
+    display: flex;
+    flex-direction: row-reverse;
+}
