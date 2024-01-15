@@ -9,7 +9,6 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,300;1,400;1,500;1,600&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -106,4 +105,7 @@
     color: rgb(20, 20, 78);
     margin: 0 15px;
     font-size: 40px;
+}
+.qr img{
+    width: 150px;
 }
