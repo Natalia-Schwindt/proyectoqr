@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    font-size: 45px;
+    font-size: 3vw;
     margin: 20px;
 }
 .navbar li{
@@ -43,53 +43,69 @@
 }
 .herotittle{
     position: absolute;
-    bottom: 100px;
-    left: 100px;
+    bottom: 6.25rem;
+    left: 6.25rem;
     font-family: Wrexham Script V1;
-    font-size: 11rem;
+    font-size: 9vw;
     color: rgb(233, 175, 82);
     text-shadow: 2px 2px 2px black;
 }
 .container{
     display: flex;
     flex-direction: column;
+    width: 90%;
+	max-width: 2000px;
+	overflow: hidden;
+	margin: 0 auto;
 }
 .container h2{
     display: flex;
     justify-content: center;
     font-family: 'Noto Serif', serif;
-    font-size: 5rem;
+    font-size: 7vw;
     color: rgb(20, 20, 78);
     text-shadow: 4px 4px 5px rgb(36, 36, 36);
-    margin: 40px;
+    margin: 2.5rem;
 }
 .containermenu{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 1vw;
+	flex-wrap: wrap;
+    flex: 350px;
+}
+/*Hace que las imágenes se hagan más pequeñas según la pantalla*/
+.containermenu img{
+    width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 .imagencomida{
     display: flex;
     flex-direction: row-reverse;
 }
 .menu{
-    width: 400px;
-    height: 570px;
+    width: 30%;
+    height: 70%;
     border: 1px solid rgb(145, 140, 140);
+    min-width: 280px;
 }
 .nombremenu{
     font-family: 'Noto Serif', serif;
+    font-size: 1.1em;
     margin: 15px;
 }
 .menu p{
     margin: 15px;
+    font-size: 0.9em;
 }
 .volver{
     text-decoration: none;
     color: rgb(20, 20, 78);
     font-size: 26px;
     font-family: Wrexham Script V1;
-    margin: 0 20px 20px;
+    margin: 20px;
 }
 .piedepagina{
     display: flex;
