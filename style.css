@@ -9,6 +9,12 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,300;1,400;1,500;1,600&display=swap');
 
+:root{
+    --color-titulo: rgb(20, 20, 78);
+    --color-sombra: rgb(36, 36, 36);
+    --fuente-titulos: 'Noto Serif', serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -48,7 +54,7 @@
     font-family: Wrexham Script V1;
     font-size: 9vw;
     color: rgb(233, 175, 82);
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px var(--color-sombra);
 }
 .container{
     display: flex;
@@ -60,10 +66,10 @@
 .container h2{
     display: flex;
     justify-content: center;
-    font-family: 'Noto Serif', serif;
+    font-family: var(--fuente-titulos);
     font-size: 7vw;
-    color: rgb(20, 20, 78);
-    text-shadow: 4px 4px 5px rgb(36, 36, 36);
+    color: var(--color-titulo);
+    text-shadow: 4px 4px 5px var(--color-sombra);
     margin: 2.5rem;
 }
 .containermenu{
@@ -91,7 +97,7 @@
     min-width: 280px;
 }
 .nombremenu{
-    font-family: 'Noto Serif', serif;
+    font-family: var(--fuente-titulos);
     font-size: 1.1em;
     margin: 15px;
 }
@@ -99,9 +105,9 @@
     margin: 15px;
     font-size: 0.9em;
 }
-.volver{
+.container a:only-of-type{
     text-decoration: none;
-    color: rgb(20, 20, 78);
+    color: var(--color-titulo);
     font-size: 26px;
     font-family: Wrexham Script V1;
     margin: 20px;
@@ -118,7 +124,7 @@
     text-shadow: 5px 5px 5px rgb(104, 104, 103);
 }
 .piedepaginaredes a{
-    color: rgb(20, 20, 78);
+    color: var(--color-titulo);
     margin: 0 15px;
     font-size: 1.3em;
 }
